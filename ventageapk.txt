@@ -1,7 +1,7 @@
 
 local WhitelistedUsernames = {
     ["skzlonely"] = true,
-    ["torsotapper"] = true
+    ["torsotapper"] = true,
 }
 
 local Player = game.Players.LocalPlayer
