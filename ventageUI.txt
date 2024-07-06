@@ -1,0 +1,34 @@
+-- Define your list of whitelisted usernames
+local whitelisted_users = {
+    "27k_Gaming",
+    "user2",
+    "user3",
+    -- Add more usernames as needed
+}
+
+-- Function to check if a user is whitelisted
+local function is_user_whitelisted(username)
+    for _, whitelisted_user in ipairs(whitelisted_users) do
+        if username == whitelisted_user then
+            return true  -- User is whitelisted
+        end
+    end
+    return false  -- User is not whitelisted
+end
+
+-- Example usage
+local function main()
+    io.write("Enter username to check: ")
+    local username = io.read():gsub("%s+", "")  -- Read input and trim whitespace
+    
+    -- Check if the username is whitelisted
+    if is_user_whitelisted(username) then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ventageuser/ventageAPK/main/ventageapk.txt")()
+
+    else
+        print(username .. " is not whitelisted.")
+    end
+end
+
+-- Call the main function
+main()
