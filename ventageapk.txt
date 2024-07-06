@@ -1005,8 +1005,8 @@ end))
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))()
 
 game.StarterGui:SetCore("SendNotification", {
-    Title = "Blazing.. V1.0.0",
-    Text = "Start mogging",
+    Title = "Blast",
+    Text = "Script & Executor",
 })
 
 local Window = Library:CreateWindow("blast | compestscript", Vector2.new(300, 350), Enum.KeyCode.P)
